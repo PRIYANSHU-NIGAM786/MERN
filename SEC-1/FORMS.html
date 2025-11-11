@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <h2>Student Admission Form</h2>
+    <form>
+        <label for="">Student Name</label>
+        <input type="text" required minlength="4" maxlength="10">
+        <br><br>
+        <label for="stu-email">Student email</label>
+        <input id="stu-email" type="email" required>
+        <br><br>
+        <label for="dob">Date of Birth</label>
+        <input id="dob" type="date">
+        <br><br>
+        <label for="address">Address</label>
+        <textarea name="Address" id="adress" rows="4"
+        cols="20"></textarea>
+        <br><br>
+        <label for="">Select course </label>
+        <select >
+            <option >MERN STACK DOVELOPMENT</option>
+            <OPtion>DATA SCIENCE</OPtion>
+            <OPTION>DATA ANALYTICS </OPTION>
+            <OPTION>ARIficial intellgence </OPTION>
+            <!-- ctr+shift+down = duplicate karne ke liye
+            -->
+            </select>
+            <br><br>
+            <label for="">College</label>
+            <input type="text" list="college">
+            <datalist id="college">
+                <option>BBDU</option>
+                <option >SRMU</option>
+                <option >AMITY</option>
+                <option >DJI</option>
+                <option >BBD(ITM)</option>
+                <option >IIT </option>
+                <option >RGIT</option>
+            </datalist>
+       
+            
+        <br><br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
