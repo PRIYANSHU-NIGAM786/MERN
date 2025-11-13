@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>forms</title>
+    
 </head>
+
 <body>
     <h2>Student Admission Form</h2>
     <form>
@@ -18,37 +21,55 @@
         <input id="dob" type="date">
         <br><br>
         <label for="address">Address</label>
-        <textarea name="Address" id="adress" rows="4"
-        cols="20"></textarea>
+        <textarea name="Address" id="adress" rows="4" cols="20"></textarea>
         <br><br>
         <label for="">Select course </label>
-        <select >
-            <option >MERN STACK DOVELOPMENT</option>
+        <select>
+            <option>MERN STACK DOVELOPMENT</option>
             <OPtion>DATA SCIENCE</OPtion>
             <OPTION>DATA ANALYTICS </OPTION>
             <OPTION>ARIficial intellgence </OPTION>
             <!-- ctr+shift+down = duplicate karne ke liye
             -->
-            </select>
-            <br><br>
-            <label for="">College</label>
-            <input type="text" list="college">
-            <datalist id="college">
-                <option>BBDU</option>
-                <option >SRMU</option>
-                <option >AMITY</option>
-                <option >DJI</option>
-                <option >BBD(ITM)</option>
-                <option >IIT </option>
-                <option >RGIT</option>
-            </datalist>
-            <br><br>
-            <label for="number">Phone Number</label>
-            <input type="number"  id="number">
-       
-            
+        </select>
+        <br><br>
+        <label for="">College</label>
+        <input type="text" list="college">
+        <datalist id="college">
+            <option>BBDU</option>
+            <option>SRMU</option>
+            <option>AMITY</option>
+            <option>DJI</option>
+            <option>BBD(ITM)</option>
+            <option>IIT </option>
+            <option>RGIT</option>
+        </datalist>
+        <br><br>
+        <label for="number">Phone Number</label>
+        <input type="number" id="number">
+        <br><br>
+        <label for="image">Select image</label>
+        <input hidden id="image" type="file">
+        <br><br>
+        <!-- hidden use for hiding of an sercing part and for main jab hmm dalenge jo id hogi to 
+         to sirf hmm label pe click karke bhi open kar sakte hai file -->
+
+        <input type="checkbox">
+        <label for="">I Accept terms and Conditions</label>
+        <br><br>
+        <details>
+            <summary>View Terms and Conditions</summary>
+            <!-- yesh show karega sirf jab click karenge too paragraph part bhi show hoga -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni consequatur libero commodi magnam nostrum
+                blanditiis praesentium fugiat ipsam fugit animi sunt officia iusto delectus, molestiae veritatis
+                necessitatibus enim! Ab, repellendus?</p>
+                <br>
+                
+        </details>
+
         <br><br>
         <button>Submit</button>
     </form>
 </body>
+
 </html>
