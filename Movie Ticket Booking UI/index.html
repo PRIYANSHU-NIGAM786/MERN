@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ticket Booking</title>
+    <img  src="movie ticket book.jpg" alt=""  >
+
+    <!-- <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script> -->
+    <!-- defer mean hamari js hogi execute html document pass hone ke baad -->
+     <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        
+            
+            
+
+       
+        .ticket{
+            display: flex;
+           border: 3px solid red; 
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+            background-color: grey;
+            color: blue;
+             box-shadow: 6px 6px 100px 30px #000000f6;
+             
+            border-radius: 15px;
+
+            
+
+            
+            
+
+        }
+        body{
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 10px;
+            background-color: peachpuff;
+           /*  font-family: sans-serif; */
+
+            
+
+
+        }
+        #btn{
+            block-size: 40px;
+            inline-size: 100px; 
+            border-radius: 20px;
+            color: whitesmoke;
+            background-color: black;
+        }
+        h1{
+           color: #000000;
+           background-color: aliceblue;
+           box-shadow: 6px 6px 100px 30px #a00ebef6;
+           border-radius: 20px;
+
+
+
+           
+        }
+        
+
+     </style>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="ticket">
+        
+        <form >
+            <h1>Let's Books the Movie Ticket 🍿🎥✮⋆˙</h1>
+            <br><br>
+            <label for="">Name : </label>
+            <input type="text">
+            <br> <br>
+            <label for="name">Movie Title :</label>
+            <input id="name" type="text">
+            <br><br>
+            <label for="date">Date</label>
+            <input type="date" id="date">
+            <br><br>
+             <label for="time">Time</label>
+             <input type="time" id="time">
+             <br><br>
+             <label for="seat">Choose Seat Type</label>
+             
+             <select  id="seat">
+                <option >Regular </option>
+                <option >Premium </option>
+                <option >VIP </option>
+                <option >Recliner </option>
+             </select>
+             <br><br>
+             <label for="">Theater Name</label>
+             <input type="text">
+             <br><br>
+             <label for="">Ticket Price :</label>
+             <select id="">
+                 <option >Regular → ₹150</option>
+                <option >Premium → ₹250</option>
+                <option >VIP → ₹350</option>
+                <option >Recliner → ₹500</option>
+                
+             </select>
+             <br><br>
+             <label for="">Booking Id / Ticket No.</label>
+             <input type="number">
+             <br><br>
+             <button id="btn">SUBMIT</button>
+             
+             
+
+               
+             
+        </form>
+        
+
+    </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>
